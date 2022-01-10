@@ -26,5 +26,4 @@ def threadHack(link):
 def posted():
     link = request.form.get('input')
     threadHack(link)
-    threadHack(link)
     return render_template('link.html', name=link)
